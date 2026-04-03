@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayres Cleaning | Servicios Profesionales</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="/">
+                <svg width="220" height="50" viewBox="0 0 280 60">
+                    <path d="M42.5 15C42.5 15 47 22 47 30C47 38.2843 40.2843 45 32 45C23.7157 45 17 38.2843 17 30C17 22 21.5 15 21.5 15C21.5 15 25 21 32 21C39 21 42.5 15 42.5 15Z" fill="#009FE3"/>
+                    <text x="60" y="38" font-family="sans-serif" font-weight="800" font-size="24" fill="#2D3134">Bayres</text>
+                    <text x="155" y="38" font-family="sans-serif" font-weight="800" font-size="24" fill="#009FE3">Cleaning</text>
+                </svg>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto" class="btn-header">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container hero-flex">
+                <div class="hero-text">
+                    <h1 style="font-size: 3.8rem; font-weight: 800;">BAYRES<br><span style="color: var(--azul);">CLEANING.</span></h1>
+                    <p style="font-size: 1.1rem; margin-top: 20px;">Servicios de limpieza profesional a la altura de sus exigencias.</p>
+                </div>
+                <div class="hero-image-container">
+                    <img src="/images/limpieza-1.png" class="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="servicios-section container">
+            <div class="servicio-titulo"><h2>NUESTRO <span>SERVICIO</span></h2></div>
+            <div class="servicios-row">
+                <div class="valores-col">
+                    <div class="valor-item">
+                        <div class="icon-circle"><img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" class="valor-icon"></div>
+                        <div class="valor-text"><h4>Atención <span>Personalizada</span></h4><p>Nos adecuamos a las necesidades de nuestros clientes.</p></div>
+                    </div>
+                    <div class="valor-item">
+                        <div class="icon-circle"><img src="https://cdn-icons-png.flaticon.com/512/1067/1067555.png" class="valor-icon"></div>
+                        <div class="valor-text"><h4>Contacto <span>Directo</span></h4><p>Relación directa con el personal directivo.</p></div>
+                    </div>
+                    <div class="valor-item">
+                        <div class="icon-circle"><img src="https://cdn-icons-png.flaticon.com/512/2921/2921147.png" class="valor-icon"></div>
+                        <div class="valor-text"><h4>Productos de <span>Calidad</span></h4><p>Utilizamos productos de alta calidad en todos los procesos.</p></div>
+                    </div>
+                </div>
+                <div class="sectores-col">
+                    <div class="sector-li">Edificios y Oficinas <img src="https://cdn-icons-png.flaticon.com/512/4300/4300058.png" class="sector-icon"></div>
+                    <div class="sector-li">Áreas y Naves Industriales <img src="https://cdn-icons-png.flaticon.com/512/2210/2210408.png" class="sector-icon"></div>
+                    <div class="sector-li">Áreas Hospitalarias <img src="https://cdn-icons-png.flaticon.com/512/3063/3063176.png" class="sector-icon"></div>
+                    <div class="sector-li">Centros Comerciales <img src="https://cdn-icons-png.flaticon.com/512/2331/2331970.png" class="sector-icon"></div>
+                    <div class="sector-li">Supermercados <img src="https://cdn-icons-png.flaticon.com/512/3759/3759500.png" class="sector-icon"></div>
+                    <div class="sector-li">Countries y Barrios Cerrados <img src="https://cdn-icons-png.flaticon.com/512/2544/2544087.png" class="sector-icon"></div>
+                    <div class="sector-li">Instituciones Educativas <img src="https://cdn-icons-png.flaticon.com/512/167/167707.png" class="sector-icon"></div>
+                    <div class="sector-li">Finales de Obra <img src="https://cdn-icons-png.flaticon.com/512/4336/4336873.png" class="sector-icon"></div>
+                    <div class="sector-li">Bancos <img src="https://cdn-icons-png.flaticon.com/512/2830/2830284.png" class="sector-icon"></div>
+                </div>
+            </div>
+            <div class="banner-negro">
+                <div class="banner-info">
+                    <ul>
+                        <li>Limpieza y Desinfección de superficies</li>
+                        <li>Limpieza de Alfombras y Tapizados</li>
+                        <li>Limpieza de Cristales</li>
+                        <li>Separación de Residuos</li>
+                    </ul>
+                </div>
+                <div class="banner-img"></div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto-section">
+            <div class="container">
+                <h2 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 50px;">PRESUPUESTO <span>Y CONTACTO</span></h2>
+                <div class="contacto-grid">
+                    <div class="form-box">
+                        <form action="/enviar" method="POST">
+                            <div class="form-group"><label>Nombre</label><input type="text" name="nombre" required></div>
+                            <div class="form-group"><label>Email</label><input type="email" name="email" required></div>
+                            <div class="form-group"><label>Teléfono</label><input type="tel" name="telefono"></div>
+                            <div class="form-group"><label>Mensaje</label><textarea name="mensaje" rows="4" required></textarea></div>
+                            <button type="submit" class="btn-submit">ENVIAR CONSULTA</button>
+                        </form>
+                    </div>
+                    <div class="directo-box">
+                        <h3>Contacto <span>Directo</span></h3>
+                        <div class="gerente-item"><strong>Pablo Florentín</strong><span>Socio Gerente</span><a href="https://wa.me/5491130690481" target="_blank">+54 9 11 3069 0481</a></div>
+                        <div class="gerente-item"><strong>Santiago Batistta</strong><span>Socio Gerente</span><a href="https://wa.me/5491130501934" target="_blank">+54 9 11 3050 1934</a></div>
+                        <div class="gerente-item"><strong>Federico Batistta</strong><span>Socio Gerente</span><a href="https://wa.me/5491140882236" target="_blank">+54 9 11 4088 2236</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p style="font-size: 11px; opacity: 0.6;">&copy; 2024 Bayres Cleaning | Buenos Aires, Argentina</p>
+        </div>
+    </footer>
+</body>
+</html>

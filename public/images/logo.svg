@@ -1,0 +1,9 @@
+<svg width="250" height="60" viewBox="0 0 250 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Isotipo: La Gota de Bayres Cleaning -->
+  <path d="M42.5 15C42.5 15 47 22 47 30C47 38.2843 40.2843 45 32 45C23.7157 45 17 38.2843 17 30C17 22 21.5 15 21.5 15C21.5 15 25 21 32 21C39 21 42.5 15 42.5 15Z" fill="#009FE3"/>
+  <path d="M32 21C28 21 24.5 24 23 28C22.5 29.5 23.5 31 25 31C26.5 31 27.5 30 28 28.5C28.5 27 30 26 32 26C34 26 35.5 27 36 28.5C36.5 30 37.5 31 39 31C40.5 31 41.5 29.5 41 28C39.5 24 36 21 32 21Z" fill="white" opacity="0.3"/>
+  
+  <!-- Texto: Bayres Cleaning -->
+  <text x="60" y="38" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#6c6e71">Bayres</text>
+  <text x="142" y="38" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#009FE3">Cleaning</text>
+</svg>
